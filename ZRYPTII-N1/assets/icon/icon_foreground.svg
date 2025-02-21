@@ -1,0 +1,11 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(212, 212) scale(0.6)">
+    <!-- Document -->
+    <path d="M700 200H500V100L700 300V200Z" fill="#2196F3" opacity="0.9"/>
+    <path d="M650 100H300C266.863 100 240 126.863 240 160V840C240 873.137 266.863 900 300 900H700C733.137 900 760 873.137 760 840V200L650 100Z" fill="#2196F3"/>
+    
+    <!-- Lock -->
+    <rect x="360" y="400" width="280" height="240" rx="20" fill="white"/>
+    <path d="M440 400V360C440 315.817 475.817 280 520 280C564.183 280 600 315.817 600 360V400" stroke="white" stroke-width="40"/>
+  </g>
+</svg> 

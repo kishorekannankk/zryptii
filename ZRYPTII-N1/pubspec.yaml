@@ -1,0 +1,41 @@
+   name: zryptii
+   description: A secure file viewer application that works offline.
+   publish_to: 'none'
+   version: 1.0.0+1
+
+   environment:
+     sdk: '>=3.0.0 <4.0.0'
+
+   dependencies:
+     flutter:
+       sdk: flutter
+     cupertino_icons: ^1.0.2
+     file_picker: ^9.0.0  # Ensure this is the latest version
+     path: ^1.8.3
+     permission_handler: ^11.3.1  # Ensure this is the latest version
+     device_info_plus: ^11.3.0  # Ensure this is the latest version
+     package_info_plus: ^8.2.1  # Ensure this is the latest version
+     shared_preferences: ^2.5.2  # Ensure this is the latest version
+     syncfusion_flutter_pdfviewer: ^28.2.6  # Ensure this is the latest version
+     intl: ^0.19.0  # Downgraded to a compatible version
+     share_plus: ^10.1.4  # Ensure this is the latest version
+     cross_file: ^0.3.4+2  # Ensure this is the latest version
+
+   dev_dependencies:
+     flutter_test:
+       sdk: flutter
+     flutter_lints: ^2.0.0
+     flutter_launcher_icons: ^0.14.3  # Ensure this is the latest version
+
+   flutter:
+     uses-material-design: true
+
+   flutter_icons:
+     android: true
+     image_path: "assets/icon/icon.png"
+     min_sdk_android: 21
+     adaptive_icon_background: "#2196F3"
+     adaptive_icon_foreground: "assets/icon/icon.png"
+
+   dependency_overrides:
+     intl: ^0.19.0

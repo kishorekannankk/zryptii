@@ -1,0 +1,59 @@
+**Project Name:** ZRYPTII
+
+**Description:**
+ZRYPTII is a mobile application designed to open and view any file in read-only mode while functioning fully offline. In the future, the app will incorporate a cloud-based feature for file analysis with isolated storage for better security.
+
+---
+
+### **Requirements Document**
+
+#### **1. Platform Compatibility:**
+- The app should be developed using Flutter to support both Android and iOS platforms.
+- The initial release should focus on Android, with iOS support planned for future updates.
+
+#### **2. Core Functionalities:**
+- Ability to open and view various file formats (e.g., PDF, DOCX, TXT, PPT, XLS, images, and videos) in read-only mode.
+- Ensure no modifications can be made to opened files.
+- Provide an intuitive and user-friendly interface for selecting and opening files.
+- Allow users to navigate through files smoothly with zoom, scroll, and search functionalities where applicable.
+
+#### **3. Offline Capability:**
+- The app should function entirely offline, meaning all file operations must be local.
+- No internet connection should be required for core features.
+
+#### **4. Security & Permissions:**
+- The app should request only necessary permissions, such as file access.
+- Implement strict read-only access to prevent accidental edits or modifications.
+- Ensure that user data remains private and no unnecessary background operations occur.
+
+#### **5. Future Development (Cloud Feature for File Analysis):**
+- Plan for a cloud feature where users can upload files for analysis.
+- Implement isolated storage for secure cloud interactions.
+- Ensure user data privacy with encryption and secure authentication mechanisms.
+
+#### **6. User Interface (UI) & User Experience (UX):**
+- Clean and minimalistic UI with easy navigation.
+- Dark mode and light mode support.
+- Display file details (name, size, type, last modified date, etc.).
+- Error handling and proper messaging for unsupported file types.
+
+#### **7. Performance & Optimization:**
+- Ensure quick file loading and smooth user interactions.
+- Optimize memory usage for handling large files efficiently.
+- Implement caching where necessary to improve performance.
+
+#### **8. Testing & Deployment:**
+- Provide an APK build for testing on physical devices.
+- Ensure compatibility with various Android versions.
+- Conduct testing to verify offline functionality and read-only restrictions.
+
+---
+
+### **Prompt for Cursor AI**
+
+> Build a Flutter mobile app named ZRYPTII that can open and view any file in read-only mode. The app should work fully offline and support various file formats like PDF, DOCX, TXT, PPT, XLS, images, and videos. It must not allow file modifications. Implement a minimal UI with file selection, navigation, and security measures to restrict editing. Future updates will add cloud-based file analysis with isolated storage. Provide an APK build for testing.
+
+---
+
+This document should help you effectively prompt Cursor AI to generate code for your app. Let me know if you need any modifications!
+
